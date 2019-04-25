@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+freespace-notify.py
+---
+Sends a Slack notification in case of low free space.
+
+RELEASE: 0.1
+"""
+
 import re
 import argparse
 import requests
